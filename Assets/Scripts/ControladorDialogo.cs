@@ -5,11 +5,20 @@ using UnityEngine.UI;
 
 public class ControladorDialogo : MonoBehaviour
 {
+    public GameObject Client;
+
+    public Sprite Client1;
+    public Sprite Client2;
+    public Sprite Client3;
+    public Sprite Client4;
+
     public Text textoDialogo;
     public string[] lineasDialogo;
     public Button[] botonesRespuesta;
     public GameObject panel;
     private int indiceLinea = 0;
+    int SpriteChoice = 0;
+    int PreviousClient = 0;
 
     int panes = 0;
     int carnes = 0;
@@ -44,6 +53,29 @@ public class ControladorDialogo : MonoBehaviour
         {
             print("HELOOOOO????");
             textoDialogo.text = "¡Muchas gracias!";
+            Player.item = "0000";
+            SpriteChoice = Random.Range(1, 4);
+            if (SpriteChoice==PreviousClient)
+            {
+                SpriteChoice += 1;
+            }
+            PreviousClient = SpriteChoice;
+            switch (SpriteChoice)
+            {
+                case 1:
+                    Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client1;
+                    break;
+                case 2:
+                    Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client2;
+                    break;
+                //case 3:
+                //    Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client3;
+                //    break;
+                //case 4:
+                //    Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client4;
+                //    break;
+            }
+
         }
         else 
         {
