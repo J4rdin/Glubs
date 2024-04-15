@@ -270,9 +270,9 @@ MonoBehaviour:
   TacoGusanosCeraPrefab: {fileID: 4876670327016837696, guid: c9eb3c7b05fe5f14681b551118a2c0db, type: 3}
   TacoGusanosCeraRoachPrefab: {fileID: 8104544332879780469, guid: 2b95680d89c2d3748b7019560e746ab8, type: 3}
   TacoGusanosCeraUnasPrefab: {fileID: 2397572377790486873, guid: 630983f99a605ea4eb69bae75f315b27, type: 3}
-  TacoOjoCeraPrefab: {fileID: 0}
-  TacoOjoCeraRoachPrefab: {fileID: 0}
-  TacoOjoCeraUnasPrefab: {fileID: 0}
+  TacoOjoCeraPrefab: {fileID: 703855943089720841, guid: 6b7151b8ff9618b41a0de356c1fd9b7c, type: 3}
+  TacoOjoCeraRoachPrefab: {fileID: 5195318097909924389, guid: 60966d03cf6b66a4dbf1f97026c143b5, type: 3}
+  TacoOjoCeraUnasPrefab: {fileID: 7669322135059394677, guid: 210598ec624363e4faddd17c67a856e2, type: 3}
 --- !u!1 &243028522
 GameObject:
   m_ObjectHideFlags: 0

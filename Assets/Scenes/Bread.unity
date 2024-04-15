@@ -218,11 +218,11 @@ MonoBehaviour:
   x: 4
   y: 0
   Food: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
-  CookedTaco: {fileID: 0}
-  CookedArepa: {fileID: 0}
-  CookedNachos: {fileID: 0}
-  CookedOjo: {fileID: 0}
-  CookedGusano: {fileID: 0}
+  CookedTaco: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+  CookedArepa: {fileID: 6110801871326594910, guid: d6ad462b840cd6c40b9865f9adec1a4d, type: 3}
+  CookedNachos: {fileID: 2327887538080612236, guid: 2e29a38110627934bb2f49c7af444616, type: 3}
+  CookedOjo: {fileID: 7677861150718325464, guid: 3adc29d50653af044b40259eafeafd35, type: 3}
+  CookedGusano: {fileID: 955461383009122518, guid: f9abe48055c0ce140bbe49029e3b5b8f, type: 3}
 --- !u!114 &243028525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,9 +1379,9 @@ MonoBehaviour:
   TacoGusanosCeraPrefab: {fileID: 4876670327016837696, guid: c9eb3c7b05fe5f14681b551118a2c0db, type: 3}
   TacoGusanosCeraRoachPrefab: {fileID: 8104544332879780469, guid: 2b95680d89c2d3748b7019560e746ab8, type: 3}
   TacoGusanosCeraUnasPrefab: {fileID: 2397572377790486873, guid: 630983f99a605ea4eb69bae75f315b27, type: 3}
-  TacoOjoCeraPrefab: {fileID: 0}
-  TacoOjoCeraRoachPrefab: {fileID: 0}
-  TacoOjoCeraUnasPrefab: {fileID: 0}
+  TacoOjoCeraPrefab: {fileID: 703855943089720841, guid: 6b7151b8ff9618b41a0de356c1fd9b7c, type: 3}
+  TacoOjoCeraRoachPrefab: {fileID: 5195318097909924389, guid: 60966d03cf6b66a4dbf1f97026c143b5, type: 3}
+  TacoOjoCeraUnasPrefab: {fileID: 7669322135059394677, guid: 210598ec624363e4faddd17c67a856e2, type: 3}
 --- !u!1 &2091788956
 GameObject:
   m_ObjectHideFlags: 0

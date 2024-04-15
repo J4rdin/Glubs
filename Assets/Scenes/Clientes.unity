@@ -1659,6 +1659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1273641966}
   - component: {fileID: 1273641965}
+  - component: {fileID: 1273641967}
   m_Layer: 0
   m_Name: "Estaci\xF3n clientes"
   m_TagString: Untagged
@@ -1733,6 +1734,34 @@ Transform:
   m_Father: {fileID: 1831858017}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273641967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273641964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200080ead871f8942861b9b81dbf337d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TacoPrefab: {fileID: 8916801417546115977, guid: 6dd96c0a60a8de14cbfa7b0668ac21d7, type: 3}
+  OjoPrefab: {fileID: 7677861150718325464, guid: 3adc29d50653af044b40259eafeafd35, type: 3}
+  TacoOjoPrefab: {fileID: 185872236371866537, guid: c43e210c0445a3d458173bb5980b13fe, type: 3}
+  TacoOjoMocoPrefab: {fileID: 499860135482693963, guid: 5f772b5437fab8b4f985e99b28e0980a, type: 3}
+  TacoOjoMocoRoachPrefab: {fileID: 7205535535809015876, guid: fc84138762b01ef46ab7152e8315971a, type: 3}
+  TacoOjoMocoUnasPrefab: {fileID: 2594956236200107203, guid: 0cc7a88a8b8894244a999cc3842da5de, type: 3}
+  TacoGusanosPrefab: {fileID: 1297147287363531266, guid: d701964573483094591d1b9e2dd8f50e, type: 3}
+  TacoGusanosMocoPrefab: {fileID: 3281426621201898009, guid: b7626749259549941a717031ef127f7a, type: 3}
+  TacoGusanosMocoRoachPrefab: {fileID: 8924560950849653258, guid: 33d40b33d0812bd4587c42b571148abb, type: 3}
+  TacoGusanosMocoUnasPrefab: {fileID: 2670638865859247594, guid: 9dc80ac727c739844b23cf34335d59c9, type: 3}
+  TacoGusanosCeraPrefab: {fileID: 4876670327016837696, guid: c9eb3c7b05fe5f14681b551118a2c0db, type: 3}
+  TacoGusanosCeraRoachPrefab: {fileID: 8104544332879780469, guid: 2b95680d89c2d3748b7019560e746ab8, type: 3}
+  TacoGusanosCeraUnasPrefab: {fileID: 2397572377790486873, guid: 630983f99a605ea4eb69bae75f315b27, type: 3}
+  TacoOjoCeraPrefab: {fileID: 703855943089720841, guid: 6b7151b8ff9618b41a0de356c1fd9b7c, type: 3}
+  TacoOjoCeraRoachPrefab: {fileID: 5195318097909924389, guid: 60966d03cf6b66a4dbf1f97026c143b5, type: 3}
+  TacoOjoCeraUnasPrefab: {fileID: 7669322135059394677, guid: 210598ec624363e4faddd17c67a856e2, type: 3}
 --- !u!1 &1368717029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,6 +2370,90 @@ Transform:
   - {fileID: 1818779271}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1919019116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919019118}
+  - component: {fileID: 1919019117}
+  m_Layer: 0
+  m_Name: Turn In
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1919019117
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919019116}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1919019118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919019116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.55, y: -0.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2142209166
 GameObject:
