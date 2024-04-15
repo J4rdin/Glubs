@@ -36,6 +36,7 @@ public class ControladorDialogo : MonoBehaviour
     bool dialogo_ended = false;
 
     public static string pedido = "";       //Pan - Carne - Salsa - Topping
+    public static bool CORRECT = false;
 
 
 
@@ -49,7 +50,7 @@ public class ControladorDialogo : MonoBehaviour
 
     void Update()
     {
-        if(Player.item == pedido)
+        if(CORRECT == true)
         {
             print("HELOOOOO????");
             textoDialogo.text = "¡Muchas gracias!";
@@ -75,7 +76,7 @@ public class ControladorDialogo : MonoBehaviour
                 //    Client.gameObject.GetComponent<SpriteRenderer>().sprite = Client4;
                 //    break;
             }
-
+            CORRECT = false;
         }
         else 
         {
@@ -84,6 +85,7 @@ public class ControladorDialogo : MonoBehaviour
             {
                 MostrarSiguienteLinea();
             }
+            CORRECT = false;
         }
     }
 
